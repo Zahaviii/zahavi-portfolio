@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vong Kitchen</title>
+
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+        rel="icon"
+        href="assets/favicon.png"
+        type="image/png"
+    />
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <style>
+        :root {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .playfair {
+            font-family: "Playfair Display", serif;
+        }
+
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col justify-between bg-zinc-950 text-zinc-100">
+    <!-- Header -->
+    <header class="p-4 pt-8">
+        <div class="w-full max-w-5xl mx-auto">
+            <div
+                class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
+            >
+                <a
+                    href="index.html"
+                    class="playfair font-bold text-2xl"
+                >
+                    Zahavi
+                </a>
+
+                <!--
+                <nav class="flex items-center gap-8 text-sm">
+                    <a href="about.html" class="hover:underline">
+                        About us
+                    </a>
+
+                    <a href="blog.html" class="hover:underline">
+                        Blog
+                    </a>
+
+                    <a
+                        href="signin.html"
+                        class="flex items-center gap-2 p-2 px-6 rounded-full bg-gray-300 text-black hover:bg-gray-600 hover:text-white"
+                    >
+                        <i class="bi bi-box-arrow-in-right"></i>
+                        <span>Sign in</span>
+                    </a>
+                </nav>
+                -->
+            </div>
+        </div>
+    </header>
+    <!-- END Header -->
+
+    <!-- Main Section -->
+    <section class="px-4 py-10 md:py-24 md:pt-10">
+        <div class="w-full max-w-5xl mx-auto">
+
+            <!-- Back Button -->
+            <div class="flex items-start">
+                <a
+                    href="index.html"
+                    class="flex items-center gap-2 p-2 px-6 rounded-full bg-zinc-800 text-zinc-100 text-sm hover:bg-zinc-700"
+                >
+                    <i class="bi bi-arrow-left"></i>
+                    <span>Previous page</span>
+                </a>
+            </div>
+            <!-- END Back Button -->
+
+            <!-- Title -->
+            <div class="flex flex-col gap-8 py-8">
+                <h1 class="playfair font-bold text-2xl md:text-4xl xl:text-6xl">
+                    Vong Kitchen
+                </h1>
+            </div>
+            <!-- END Title -->
+
+            <!-- Content -->
+            <div class="flex flex-col md:grid grid-cols-12 gap-8">
+                <div class="col-span-12 flex flex-col gap-4">
+
+                    <div class="flex flex-col gap-4 w-full">
+                        <time datetime="2025-05-07">
+                            May 07, 2025
+                        </time>
+                        <div class="flex gap-2 flex-wrap mt-2">
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">CodeIgniter</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Bootstrap</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">MySQL</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">PHP</span>
+</div>
+                        <img
+                            src="assets/project3.png"
+                            alt="project3"
+                            class="object-cover mb-8"
+                        />
+
+                        <p>
+                            Vong Kitchen is a modern restaurant website built
+                            using HTML, Bootstrap, JavaScript, PHP, and MySQL.
+                            The system is designed to provide customers with an
+                            elegant and interactive online dining experience
+                            while allowing administrators to manage restaurant
+                            content efficiently through a connected database
+                            system. With a responsive and visually appealing
+                            interface, the website delivers a seamless browsing
+                            experience across desktop and mobile devices.
+                        </p>
+
+                        <p>
+                            One of the core features of the system is the dynamic
+                            food menu management integrated with a MySQL database.
+                            The website displays a variety of food and beverage
+                            items complete with images, descriptions, and prices,
+                            allowing customers to explore the restaurant’s
+                            signature dishes easily. The menu categories such as
+                            breakfast, lunch, and dinner are organized in a clean
+                            and modern layout to improve user navigation and
+                            overall experience.
+                        </p>
+
+                        <p>
+                            The system also includes an online reservation feature
+                            where customers can book tables directly through the
+                            website. Reservation data such as customer names,
+                            email addresses, booking schedules, number of guests,
+                            and special requests are stored securely in the MySQL
+                            database, making it easier for administrators to
+                            monitor and manage customer reservations efficiently.
+                        </p>
+
+                        <!-- Gallery -->
+                        <div class="grid grid-cols-2 gap-4 py-8">
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project3.1.png"
+                                    alt="project3"
+                                    class="object-cover"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project3.2.png"
+                                    alt="project3"
+                                    class="object-cover"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project3.3.png"
+                                    alt="project3"
+                                    class="object-cover"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project3.4.png"
+                                    alt="project3"
+                                    class="object-cover"
+                                />
+                            </div>
+                        </div>
+                        <!-- END Gallery -->
+
+                        <p>
+                            To enhance user engagement, the website provides
+                            additional interactive features including embedded
+                            promotional videos, customer testimonials, chef
+                            profiles, and social media integration. These
+                            features help strengthen the restaurant’s branding
+                            and create a more immersive experience for visitors.
+                            The website also utilizes animation libraries and
+                            responsive design components to deliver a modern and
+                            professional appearance.
+                        </p>
+
+                        <p>
+                            To complete the system, a database-driven backend
+                            structure has been implemented to support content
+                            organization and future scalability. By integrating
+                            MySQL into the system, Vong Kitchen becomes more than
+                            just a static restaurant website, transforming into
+                            a dynamic and manageable web platform that simplifies
+                            restaurant operations while delivering a premium
+                            online experience for customers.
+                        </p>
+
+                        <!-- Features -->
+                        <div>
+                            <p class="font-bold">
+                                Features:
+                            </p>
+
+                            <ul class="list-disc list-inside">
+                                <li>Responsive restaurant landing page</li>
+                                <li>Dynamic food menu management with MySQL database</li>
+                                <li>Online table reservation system</li>
+                                <li>Interactive food categories and menu tabs</li>
+                                <li>Customer testimonial carousel section</li>
+                                <li>Embedded promotional video integration</li>
+                                <li>Chef profile and social media integration</li>
+                                <li>Modern UI design using Bootstrap and animation libraries</li>
+                                <li>Newsletter subscription section</li>
+                                <li>Database-driven content management structure</li>
+                            </ul>
+                        </div>
+                        <!-- END Features -->
+
+                        <!--
+                        <small>
+                            Donec non est at sem aliquet placerat.
+                            Suspendisse at neque eget ipsum euismod
+                            varius vitae sit amet nisl.
+
+                            Proin ornare non lorem id accumsan.
+                            Etiam ligula sapien, laoreet in neque id,
+                            dignissim viverra est.
+
+                            Cras est nisi, interdum nec massa ac,
+                            porttitor dignissim orci.
+
+                            Aenean maximus dapibus volutpat.
+                            Integer fermentum lacus in interdum aliquet.
+
+                            Suspendisse egestas ipsum libero,
+                            id interdum erat facilisis non.
+                        </small>
+                        -->
+
+                        <!--
+                        <div class="overflow-x-auto rounded-xl shadow-md mt-4">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Niche
+                                        </th>
+
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Audience
+                                        </th>
+
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Potentiel
+                                        </th>
+
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Produit Complémentaire
+                                        </th>
+                                    </tr>
+                                </thead>
+
+                                <tbody class="bg-white divide-y divide-gray-100 text-sm">
+                                    <tr>
+                                        <td class="px-6 py-4 font-medium text-gray-900">
+                                            UI pour devs
+                                        </td>
+
+                                        <td class="px-6 py-4 text-gray-600">
+                                            Développeurs front-end
+                                        </td>
+
+                                        <td class="px-6 py-4 text-green-600 font-semibold">
+                                            Élevé
+                                        </td>
+
+                                        <td class="px-6 py-4 text-gray-700">
+                                            Templates, composants UI
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+            <!-- END Content -->
+
+        </div>
+    </section>
+    <!-- END Main Section -->
+
+   <footer class="p-4 pb-8">
+  <div class="w-full max-w-5xl mx-auto">
+    <div class="flex justify-between items-center gap-4">
+      <small class="text-zinc-500">Zahavi © 2026</small>
+      <div class="flex items-center gap-4">
+        <a href="https://www.instagram.com/saktyzahavi/" class="text-zinc-400 hover:text-white">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://github.com/Zahaviii" class="text-zinc-400 hover:text-white">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

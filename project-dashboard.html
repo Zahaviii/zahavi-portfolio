@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dashboard CMS</title>
+
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+        rel="icon"
+        href="assets/favicon.png"
+        type="image/png"
+    />
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <style>
+        :root {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .playfair {
+            font-family: "Playfair Display", serif;
+        }
+
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col justify-between bg-zinc-950 text-zinc-100">
+    <header class="p-4 pt-8">
+        <div class="w-full max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between w-full items-start md:items-center gap-4">
+                <a class="playfair font-bold text-2xl" href="index.html">
+                    Zahavi
+                </a>
+
+                <!--
+                <nav class="flex items-center gap-8 text-sm">
+                    <a href="about.html" class="hover:underline">About us</a>
+
+                    <a href="blog.html" class="hover:underline">Blog</a>
+
+                    <a
+                        class="flex items-center bg-gray-300 gap-2 p-2 px-6 text-black rounded-full hover:text-white hover:bg-gray-600"
+                        href="signin.html"
+                    >
+                        <i class="bi bi-box-arrow-in-right"></i>
+                        <span>Sign in</span>
+                    </a>
+                </nav>
+                -->
+            </div>
+        </div>
+    </header>
+
+    <section class="px-4 py-10 md:py-24 md:pt-10">
+        <div class="w-full max-w-5xl mx-auto">
+            <div class="flex items-start">
+                <a
+                    href="index.html"
+                    class="flex items-center gap-2 p-2 px-6 rounded-full bg-zinc-800 text-zinc-100 text-sm hover:bg-zinc-700"
+                >
+                    <i class="bi bi-arrow-left"></i>
+                    <span>Previous page</span>
+                </a>
+            </div>
+
+            <div class="flex flex-col gap-8 py-8">
+                <h1 class="playfair font-bold text-2xl md:text-4xl xl:text-6xl">
+                    Dashboard CMS
+                </h1>
+            </div>
+
+            <div class="flex flex-col md:grid grid-cols-12 gap-8">
+                <div class="flex flex-col gap-4 col-span-12">
+                    <div class="col-span-2 flex flex-col gap-4 w-full">
+                        <time datetime="2026-04-25">
+                            April 25, 2026
+                        </time>
+                        <div class="flex gap-2 flex-wrap mt-2">
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">CodeIgniter</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Bootstrap</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">MySQL</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">HeidiSQL</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">PHP</span>
+</div>
+                        <img
+                            class="object-cover mb-8"
+                            src="assets/project1.png"
+                            alt="project1"
+                        />
+
+                        <p>
+                            Dashboard CMS is a web-based content management system
+                            built using CodeIgniter, Bootstrap, and MySQL via HeidiSQL.
+                            The system is designed to give administrators full control
+                            over the content displayed on the main landing page,
+                            making it easy to manage and update without touching the code.
+                        </p>
+
+                        <p>
+                            The system features a secure login and registration system,
+                            ensuring that only authorized administrators can access
+                            the dashboard. Once logged in, admins can manage all
+                            content from a single, clean, and intuitive dashboard
+                            interface that is fully responsive across all devices.
+                        </p>
+
+                        <p>
+                            One of the core features is the content management system
+                            where admins can input text and images that will be
+                            displayed directly on the main landing page. The video
+                            management feature allows admins to add video thumbnails
+                            and links that will appear on the homepage, making it
+                            easy to showcase video content without any technical knowledge.
+                        </p>
+
+                        <div class="grid grid-cols-2 gap-4 py-8">
+                            <div class="col-span-1">
+                                <img
+                                    class="object-cover"
+                                    src="assets/project1.1.png"
+                                    alt="project1"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    class="object-cover"
+                                    src="assets/project1.2.png"
+                                    alt="project1"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    class="object-cover"
+                                    src="assets/project1.3.png"
+                                    alt="project1"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    class="object-cover"
+                                    src="assets/project1.4.png"
+                                    alt="project1"
+                                />
+                            </div>
+                        </div>
+
+                        <p>
+                            The system also includes a user management feature where
+                            admins can monitor and view all registered users in the
+                            system. Additionally, a news management feature allows
+                            admins to create and manage news articles complete with
+                            titles, content, and thumbnails, keeping the website
+                            content fresh and up to date.
+                        </p>
+
+                        <p>
+                            To complete the system, a shopping cart and checkout
+                            feature has been integrated, allowing users to browse,
+                            add items to their cart, and complete purchases seamlessly.
+                            All these features are combined into one powerful and
+                            easy-to-use system, making Dashboard CMS a complete
+                            solution for managing dynamic web content.
+                        </p>
+
+                        <!--
+                        <small>
+                            Donec non est at sem aliquet placerat.
+                            Suspendisse at neque eget ipsum euismod
+                            varius vitae sit amet nisl.
+                        </small>
+                        -->
+
+                        <p class="font-bold">
+                            Features:
+                        </p>
+
+                        <ul class="list-disc list-inside">
+                            <li>Login & Registration system</li>
+                            <li>Admin-only dashboard access</li>
+                            <li>Content management (text & images for landing page)</li>
+                            <li>Video management (thumbnail & video link)</li>
+                            <li>User management (view registered users)</li>
+                            <li>News management (title, content & thumbnail)</li>
+                            <li>Shopping cart & checkout system</li>
+                        </ul>
+
+                        <!--
+                        <div class="overflow-x-auto rounded-xl shadow-md mt-4">
+                            ...
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-4 pb-8">
+  <div class="w-full max-w-5xl mx-auto">
+    <div class="flex justify-between items-center gap-4">
+      <small class="text-zinc-500">Zahavi © 2026</small>
+      <div class="flex items-center gap-4">
+        <a href="https://www.instagram.com/saktyzahavi/" class="text-zinc-400 hover:text-white">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://github.com/Zahaviii" class="text-zinc-400 hover:text-white">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

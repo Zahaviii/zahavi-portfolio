@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pixel Realm</title>
+
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+        rel="icon"
+        href="assets/favicon.png"
+        type="image/png"
+    />
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <style>
+        :root {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .playfair {
+            font-family: "Playfair Display", serif;
+        }
+
+        
+    </style>
+</head>
+
+<body class="min-h-screen flex flex-col justify-between bg-zinc-950 text-zinc-100">
+    <!-- Header -->
+    <header class="p-4 pt-8">
+        <div class="w-full max-w-5xl mx-auto">
+            <div
+                class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4"
+            >
+                <a
+                    href="index.html"
+                    class="playfair font-bold text-2xl"
+                >
+                    Zahavi
+                </a>
+
+                <!--
+                <nav class="flex items-center gap-8 text-sm">
+                    <a href="about.html" class="hover:underline">About us</a>
+                    <a href="blog.html" class="hover:underline">Blog</a>
+
+                    <a
+                        href="signin.html"
+                        class="flex items-center gap-2 p-2 px-6 rounded-full bg-gray-300 text-black hover:bg-gray-600 hover:text-white"
+                    >
+                        <i class="bi bi-box-arrow-in-right"></i>
+                        <span>Sign in</span>
+                    </a>
+                </nav>
+                -->
+            </div>
+        </div>
+    </header>
+    <!-- END Header -->
+
+    <!-- Main Section -->
+    <section class="px-4 py-10 md:py-24 md:pt-10">
+        <div class="w-full max-w-5xl mx-auto">
+
+            <!-- Back Button -->
+            <div class="flex items-start">
+                <a
+                    href="index.html"
+                    class="flex items-center gap-2 p-2 px-6 rounded-full bg-zinc-800 text-zinc-100 text-sm hover:bg-zinc-700"
+                >
+                    <i class="bi bi-arrow-left"></i>
+                    <span>Previous page</span>
+                </a>
+            </div>
+            <!-- END Back Button -->
+
+            <!-- Title -->
+            <div class="flex flex-col gap-8 py-8">
+                <h1 class="playfair font-bold text-2xl md:text-4xl xl:text-6xl">
+                    Pixel Realm
+                </h1>
+            </div>
+            <!-- END Title -->
+
+            <!-- Content -->
+            <div class="flex flex-col md:grid grid-cols-12 gap-8">
+                <div class="col-span-12 flex flex-col gap-4">
+
+                    <div class="flex flex-col gap-4 w-full">
+                        <time datetime="2026-05-10">
+                            May 10, 2026
+                        </time>
+
+                        <div class="flex gap-2 flex-wrap mt-2">
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Godot Engine</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">GDScript</span>
+  <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Pixel Art</span>
+</div>
+
+                        <img
+                            src="assets/project2.png"
+                            alt="project2"
+                            class="object-cover mb-8"
+                        />
+
+                        <p>
+                            Pixel Realm is a top-down pixel art RPG game built
+                            with Godot Engine. Inspired by classic retro RPGs
+                            like the early Final Fantasy and Dragon Quest series,
+                            the game aims to bring back the nostalgic feeling
+                            of old-school RPG adventures with a modern touch.
+                        </p>
+
+                        <p>
+                            The game features a hand-crafted pixel art world
+                            complete with detailed characters, rich environments,
+                            and various enemies. Every asset in the game is
+                            carefully designed to maintain a consistent retro
+                            pixel art aesthetic that feels both classic and fresh.
+                        </p>
+
+                        <p>
+                            Currently in early development, the movement system
+                            has been fully implemented, allowing the player to
+                            explore the world freely. The game world is designed
+                            with detailed pixel art tiles, trees, paths, and
+                            open fields that bring the environment to life.
+                        </p>
+
+                        <!-- Gallery -->
+                        <div class="grid grid-cols-2 gap-4 py-8">
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project2.png"
+                                    alt="project2"
+                                    class="object-cover"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project2.png"
+                                    alt="project2"
+                                    class="object-cover"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project2.png"
+                                    alt="project2"
+                                    class="object-cover"
+                                />
+                            </div>
+
+                            <div class="col-span-1">
+                                <img
+                                    src="assets/project2.png"
+                                    alt="project2"
+                                    class="object-cover"
+                                />
+                            </div>
+                        </div>
+                        <!-- END Gallery -->
+
+                        <p>
+                            Combat system is currently being developed, which
+                            will allow players to engage in battles with various
+                            enemies including slimes and other creatures. Enemy
+                            AI with respawn mechanics and a health bar system
+                            will also be added to create a more dynamic and
+                            challenging gameplay experience.
+                        </p>
+
+                        <p>
+                            The long-term vision for Pixel Realm includes a full
+                            inventory system, quest system, NPC interactions,
+                            and an engaging storyline. The goal is to create an
+                            immersive RPG experience that captures the charm of
+                            classic pixel art games while delivering modern and
+                            polished gameplay mechanics.
+                        </p>
+
+                        <!-- Features -->
+                        <div>
+                            <p class="font-bold">
+                                Current Features:
+                            </p>
+
+                            <ul class="list-disc list-inside">
+                                <li>Top-down movement system</li>
+                                <li>Pixel art environment & tilemap</li>
+                                <li>Player character</li>
+                                <li>Enemy NPC (Slime)</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <p class="font-bold mt-4">
+                                Upcoming Features:
+                            </p>
+
+                            <ul class="list-disc list-inside">
+                                <li>Combat system</li>
+                                <li>Enemy respawn mechanic</li>
+                                <li>Health bar system</li>
+                                <li>Inventory system</li>
+                                <li>Quest system</li>
+                                <li>NPC interactions</li>
+                                <li>Storyline & dialogue system</li>
+                            </ul>
+                        </div>
+                        <!-- END Features -->
+
+                        <!--
+                        <small>
+                            Donec non est at sem aliquet placerat.
+                            Suspendisse at neque eget ipsum euismod
+                            varius vitae sit amet nisl.
+
+                            Proin ornare non lorem id accumsan.
+                            Etiam ligula sapien, laoreet in neque id,
+                            dignissim viverra est.
+
+                            Cras est nisi, interdum nec massa ac,
+                            porttitor dignissim orci.
+
+                            Aenean maximus dapibus volutpat.
+                            Integer fermentum lacus in interdum aliquet.
+
+                            Suspendisse egestas ipsum libero,
+                            id interdum erat facilisis non.
+                        </small>
+                        -->
+
+                        <!--
+                        <div class="overflow-x-auto rounded-xl shadow-md mt-4">
+                            <table class="min-w-full divide-y divide-gray-200">
+                                <thead class="bg-gray-100">
+                                    <tr>
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Niche
+                                        </th>
+
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Audience
+                                        </th>
+
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Potentiel
+                                        </th>
+
+                                        <th class="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+                                            Produit Complémentaire
+                                        </th>
+                                    </tr>
+                                </thead>
+
+                                <tbody class="bg-white divide-y divide-gray-100 text-sm">
+                                    <tr>
+                                        <td class="px-6 py-4 font-medium text-gray-900">
+                                            UI pour devs
+                                        </td>
+
+                                        <td class="px-6 py-4 text-gray-600">
+                                            Développeurs front-end
+                                        </td>
+
+                                        <td class="px-6 py-4 text-green-600 font-semibold">
+                                            Élevé
+                                        </td>
+
+                                        <td class="px-6 py-4 text-gray-700">
+                                            Templates, composants UI
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+            <!-- END Content -->
+
+        </div>
+    </section>
+    <!-- END Main Section -->
+
+    <footer class="p-4 pb-8">
+  <div class="w-full max-w-5xl mx-auto">
+    <div class="flex justify-between items-center gap-4">
+      <small class="text-zinc-500">Zahavi © 2026</small>
+      <div class="flex items-center gap-4">
+        <a href="https://www.instagram.com/saktyzahavi/" class="text-zinc-400 hover:text-white">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://github.com/Zahaviii" class="text-zinc-400 hover:text-white">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
